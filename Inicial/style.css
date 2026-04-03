@@ -1,0 +1,76 @@
+body {
+  background-image: url("../img/praia.jpg");
+  background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Playfair Display SC', serif;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0px 50px 10px 0px;
+    position: relative;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%; 
+}
+
+h1 {
+    padding: 20px;
+    margin-top: 40px;
+    margin-top: 40px;
+   color: white;
+    margin-top: 50px;
+  font-family: 'Playfair Display SC', serif;
+  text-align: left;
+}
+
+p {
+    padding: 20px;
+     font-family: 'Cormorant Infant', serif;
+     color: #ffffff;
+       max-width: 600px;
+       text-align: center left;
+       font-size: 20px;
+}
+
+.botao {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:#4674b3;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 220px;
+    
+}
+
+a {
+ text-decoration: none;
+}
