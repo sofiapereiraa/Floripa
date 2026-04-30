@@ -1,6 +1,7 @@
 body {
   background-image: url("../Floripa/img/praia.jpg");
   background-size: cover;
+  
 }
 
 * {
@@ -53,7 +54,7 @@ h1 {
 p {
     padding: 20px;
      font-family: 'Cormorant Infant', serif;
-     color: #ffffff;
+     color: #ff0000;
        max-width: 600px;
        text-align: center left;
        font-size: 20px;
